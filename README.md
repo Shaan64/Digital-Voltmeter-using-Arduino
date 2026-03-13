@@ -13,3 +13,20 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
 ● Output displayed on a 16x2 I2C LCD
 
+# Components:
+● Arduino (Uno / Nano / compatible board)
+
+● 16x2 LCD with I2C module
+
+● Resistors:
+
+ → 10kΩ (R1)
+
+ → 1kΩ (R2)
+
+● Breadboard
+
+● Jumper wires
+
+● DC voltage source for testing
+

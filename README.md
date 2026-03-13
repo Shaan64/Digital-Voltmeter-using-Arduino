@@ -20,9 +20,9 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
 ● Resistors:
 
- → 10kΩ (R1)
+   → 10kΩ (R1)
 
- → 1kΩ (R2)
+   → 1kΩ (R2)
 
 ● Breadboard
 

@@ -43,5 +43,5 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
    → Vin = Vout × ((R1 + R2) / R2)
 
-6. The ADC value and calculated voltage are displayed on the LCD.
+6. The ADC value and calculated voltage are displayed on the LCD
 

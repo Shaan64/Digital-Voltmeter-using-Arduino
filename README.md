@@ -2,7 +2,7 @@
 A simple Digital Voltmeter built using Arduino and an I2C LCD display.
 This project reads an analog voltage using a voltage divider, converts it through the Arduino ADC, and displays the measured voltage on a 16x2 I2C LCD. And it can safely measure voltage up to 55 Volts.
 
-# Features:
+### Features:
 ● Measures DC voltage using Arduino analog input
 
 ● Displays ADC value and calculated voltage
@@ -13,7 +13,7 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
 ● Output displayed on a 16x2 I2C LCD
 
-# Components:
+### Components:
 ● Arduino (Uno / Nano / compatible board)
 
 ● 16x2 LCD with I2C module
@@ -30,7 +30,7 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
 ● DC voltage source
 
-# How it works:
+### How it works:
 1. The input voltage is connected through a voltage divider using two resistors (R1 and R2).
 
 2. The divided voltage is read by the Arduino analog pin A1.

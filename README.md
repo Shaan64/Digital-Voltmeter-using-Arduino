@@ -28,5 +28,20 @@ This project reads an analog voltage using a voltage divider, converts it throug
 
 ● Jumper wires
 
-● DC voltage source for testing
+● DC voltage source
+
+# How it works:
+1. The input voltage is connected through a voltage divider using two resistors (R1 and R2).
+
+2. The divided voltage is read by the Arduino analog pin A1.
+
+3. Arduino converts the analog signal using its 10-bit ADC (0–1023).
+
+4. The program averages 100 samples to reduce noise.
+
+5. The actual voltage is calculated using the voltage divider formula:
+
+   → Vin = Vout × ((R1 + R2) / R2)
+
+6. The ADC value and calculated voltage are displayed on the LCD.
 
